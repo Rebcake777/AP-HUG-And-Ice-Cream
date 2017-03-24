@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Home: PolbyBrowniesAPHG</title> 
+<link href="https://fonts.googleapis.com/css?family=Roboto|Comfortaa" rel="stylesheet">
+<link rel = "stylesheet" href = "index.css">
+</head>
+
+<body>
+
+<!-- This is the header code !-->
+<header>
+
+<h1>PolbyBrowniesAPHG</h1>
+
+<nav>
+<ul>
+	<a href = "index.html"><li>Home</li></a>
+	<a href = "key-term-practice.html"><li>Key Term Practice</li></a>
+	<a href = "textbook-notes.html"><li>Textbook Notes</li></a>
+</ul>
+</nav>
+
+</header>
+
+<div class = "slideshow">
+	<div class = "slide fade">
+		<div class = "number">1 / 7</div>
+		<img src = "IMG_8723.jpg" style = "width:100%">
+	</div>
+
+	<div class = "slide fade">
+		<div class = "number">2 / 7</div>
+		<img src = "IMG_0078.jpg" style = "width:100%">
+	</div>
+
+	<div class = "slide fade">
+		<div class = "number">3 / 7</div>
+		<img src = "IMG_7361_LI.jpg" style = "width:100%">
+	</div>
+
+	<div class = "slide fade">
+		<div class = "number">4 / 7</div>
+		<img src = "IMG_8214.jpg" style = "width:100%">
+	</div>
+
+	<div class = "slide fade">
+		<div class = "number">5 / 7</div>
+		<img src = "IMG_0358.jpg" style = "width:100%">
+	</div>
+
+	<div class = "slide fade">
+		<div class = "number">6 / 7</div>
+		<img src = "96684771.jpeg" style = "width:100%">
+	</div>
+
+	<div class = "slide fade">
+		<div class = "number">7 / 7</div>
+		<img src = "IMG_0380.jpg" style = "width:100%">
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("slide");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 4000); 
+}
+</script>
+
+</div> 
+
+<br>
+
+<div style = "text-align: center">
+	<span class = "dot" onclick = "currentSlide(1)"></span>
+	<span class = "dot" onclick = "currentSlide(2)"></span>
+	<span class = "dot" onclick = "currentSlide(3)"></span>
+	<span class = "dot" onclick = "currentSlide(4)"></span>
+	<span class = "dot" onclick = "currentSlide(5)"></span>
+	<span class = "dot" onclick = "currentSlide(6)"></span>
+	<span class = "dot" onclick = "currentSlide(7)"></span>
+</div>
+
+<div class = "welcome-message">
+
+<p><b>HUWWWO.</b> Hey, visitor from cyberspace, and welcome! </b>This site which you have just 
+convieniently landed your brownie spaceship upon is an AP Human Geography review site where you can <a href = "key-term-practice.html"
+title = "Key Term Practice">practice key terms</a> and view our <a href = "textbook-notes.html" title = "Textbook Notes">textbook notes</a>. 
+We hope you enjoy your visit, and don't forget to pick up a <a href = "http://cookieandkate.com/2014/the-very-best-brownies/" title = "Virtual Brownies!"
+>free helping of virtual brownies</a> before you leave!</p> 
+
+</div>
+
+<div class = "of-the-day">
+<h3>~Term Of The Day~</h3>
+<p><b>Spread Effects</b>- Forces of deconcentration. Eventually, growth in the core stimulates 
+demand for goods and services from the periphery, and regional subcenters emerge to lead the 
+peripheral areas. High density, congestion, high labor costs, and environmental decay in the 
+core and the diffusion of technology to the periphery also encourage the outward dispersion of 
+growth.</p>
+
+<div class = "button"><a href = "kuby-notes.html#chapter-7">More Notes From Kuby Chapter 7</a></div>
+</div>
+
+
+
+
+
+
+<!-- This is the footer code !-->
+<footer>
+
+<ul>
+	<li><a href = "index.html">Home</a></li>
+	<li><a href = "key-term-practice.html">Key Term Practice</a></li>
+	<li><a href = "textbook-notes.html">Textbook Notes</a></li>
+</ul>
+
+<p>Copyright 2017 PolbyBrowniesAPHG. All rights reserved.</p>
+</footer>
+
+
+</body>
+
+</html> 
