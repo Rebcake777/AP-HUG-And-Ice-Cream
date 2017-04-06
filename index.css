@@ -1,4 +1,4 @@
-﻿/* Universal Code */ 
+/* Universal Code */ 
 
 body {
 	margin: 20px; 
@@ -112,6 +112,10 @@ img {
 	display: block; 
 	margin: 0 auto;
 } 
+
+.image {
+	margin: 15px; 
+}
 
 .welcome-message p {
 	text-align: center;
