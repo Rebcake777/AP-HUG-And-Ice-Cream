@@ -125,15 +125,14 @@ img {
 
 .of-the-day {
 	border: 2px dashed black;
-	margin-bottom: 50px;
-	margin-left: 70px;
-	margin-right: 70px; 
 	padding: 40px; 
 	background-image: url("https://images.pexels.com/photos/126790/pexels-photo-126790.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
 	background-repeat: no-repeat;  
 	height: 300px;
 	width: 800px; 
 	vertical-align: top; 
+	display: block; 
+	margin: 0 auto; 
 }	
 
 h3 {
