@@ -155,3 +155,7 @@ h3 {
 	text-decoration: none;
 	opacity: 0.8; 
 } 
+
+.of-the-day {
+	background-image: url("https://images.pexels.com/photos/126790/pexels-photo-126790.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	}
