@@ -128,11 +128,12 @@ img {
 	margin-bottom: 50px;
 	margin-left: 70px;
 	margin-right: 70px; 
-	padding: 50px; 
+	padding: 40px; 
 	background-image: url("https://images.pexels.com/photos/126790/pexels-photo-126790.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
 	background-repeat: no-repeat;  
 	height: 400px;
 	width: 900px; 
+	vertical-align: top; 
 }	
 
 h3 {
